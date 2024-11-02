@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Utah Quiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 mx-auto">
+                <h1>Utah Quiz</h1>
+                <p>Are you denser than the 30th most dense state in the U.S. Figure how much you know about this midwestern paradise. Answers for this quiz can be found in <a href="https://en.wikipedia.org/wiki/Utah"> this Wikipedia article</a>.</p>
+                <form method="post">
+            <!-- Form Label 1 -->
+                    <div class="mb-3">
+                        <label for="q1" class="form-label">What is the capital of Utah?</label>
+                        <input type="text" class="form-control" id="q1" >
+                    </div>
+            <!-- Form Label 2 -->
+                    <div class="mb-3">
+                        <label for="q2" class="form-label">Which country of Europeans found Utah after Indigenous people?</label>
+                        <input type="text" class="form-control" id="q2" >
+                    </div>
+            <!-- Text Area -->
+                    <div class="mb-3">
+                        <label for="q3" class="form-label">How does Mormonism affect politics in Utah?</label>
+                        <textarea class="form-control" id="q3" rows="3"></textarea>
+                      </div>
+
+            <!-- Radio -->
+                    <div class="mb-3">
+                    <p class="form-label">When was Utah founded?</p>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q4" id="q4_1" value="1">
+                        <label class="form-check-label" for="q4_1">
+                            1867
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q4" id="q4_2" value="2">
+                        <label class="form-check-label" for="q4_2">
+                            1888
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q4" id="q4_3" value="3">
+                        <label class="form-check-label" for="q4_3">
+                            1896
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="q4" id="q4_4" value="4">
+                        <label class="form-check-label" for="q4_4">
+                            1901
+                        </label>
+                      </div>
+                    </div>
+
+            <!-- Check Boxes -->
+                    <div class="mb-3">
+                        <p class="form-label">What are some common nicknames for this state? (select three)</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name ="q5" value="1" id="q5_1">
+                            <label class="form-check-label" for="q5_1">
+                            Beehive State
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name ="q5" value="2" id="q5_2">
+                            <label class="form-check-label" for="q5_2">
+                            The Mormon State
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name ="q5" value="3" id="q5_3">
+                            <label class="form-check-label" for="q5_3">
+                            Deseret
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name ="q5" value="4" id="q5_4">
+                            <label class="form-check-label" for="q5_4">
+                            Yuta
+                            </label>
+                        </div>
+                    </div>
+            <!-- Select -->
+                    <div class="mb-3">
+                        <p class="form-label">What is the most prominent religion in Utah?</p>
+                        <select name="q6" class="form-select" multiple aria-label="Default select example">
+                            <option id="q6_1" value="1">Mormonism</option>
+                            <option id="q6_2" value="2">Catholicism</option>
+                            <option id="q6_3" value="3">Protestant</option>
+                            <option id="q6_4" value="4">Buddhism</option>
+                            <option id="q6_5" value="5">Unaffiliated</option>
+                            <option id="q6_6" value="6">Baptist</option>
+                        </select>
+                    </div>
+            <!-- Buttons -->
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-success">Submit</button>
+                        <button type="reset" class="btn btn-danger">Start Over</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
